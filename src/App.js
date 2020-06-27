@@ -15,7 +15,12 @@ class App extends Component {
   handleVoteAngular = () => {
     this.store.dispatch(voteAngular());
   }
-
+  handleVoteAngular = () => {
+    this.store.dispatch(voteAngular());
+  }
+    handleVoteAngular = () => {
+    this.store.dispatch(voteAngular());
+  }
   
   handleVoteReact = () => {
     this.store.dispatch(voteReact());
